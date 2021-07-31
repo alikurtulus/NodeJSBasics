@@ -1,6 +1,5 @@
 const http = require('http');
-const requestListener = require('./handlers/requestListener')
+const {handler} = require('./routes/routes')
 
-
-const server = http.createServer(requestListener)
-server.listen(5000);
+const server = http.createServer(handler)
+server.listen(3000);

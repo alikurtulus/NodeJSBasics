@@ -1,0 +1,26 @@
+{
+  "name": "nodejsbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kopanarya/NodeJSBasics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kopanarya/NodeJSBasics/issues"
+  },
+  "homepage": "https://github.com/kopanarya/NodeJSBasics#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.8"
+  }
+}
